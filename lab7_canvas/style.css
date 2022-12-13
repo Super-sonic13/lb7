@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+}
+
+.animation {
+}
+
+.work {
+  display: none;
+  margin: 0 auto;
+
+  width: 500px;
+  height: 500px;
+
+  /* border: 5px solid black; */
+  outline: 5px solid black;
+
+  /* padding: 5px; */
+}
+
+.anim {
+  /* width: 98%;  */
+  background-color: brown;
+  height: 450px;
+  width: 500px;
+
+  border: 5px solid green;
+
+  position: relative;
+}
+
+.controls {
+  width: 500px;
+  height: 50px;
+}
+
+.box {
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+
+  position: absolute;
+
+  /* top: 240px;
+  left: 50%;
+  transform: translateX(-50%); */
+
+  /* left: 50px;
+  top: 50px;
+  bottom: 50px;
+  right: 50px; */
+}
+
+#canvas {
+  outline: 5px solid green;
+  box-sizing: border-box;
+
+  margin: 0 auto;
+  display: block;
+}
+
